@@ -2,7 +2,7 @@
 
 **` Digital Craftman (Developer\Philosopher)`**
 
-I am a Fullstack Developer building solutions for real-life problems. I am passionate about learning and going into the depths of technology I am using. I strongly believe in the theory of Compounding, works everywhere ( If you want to master anything just practice and learn everyday ). 
+I am a Fullstack Developer building solutions for real-life problems. I am passionate about learning and going into the depths of technologies I am using. I strongly believe in the theory of Compounding, works everywhere ( If you want to master anything just practice and learn everyday ). 
 
 <!-- Social icons section -->
 <p align="center">
