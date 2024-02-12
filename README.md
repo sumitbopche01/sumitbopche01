@@ -1,6 +1,6 @@
 # <> Sumit Bopche
 
-**` Digital Craftsman (Developer\Philosopher)`**
+**` Programmer\Philosopher `**
 
 I am a Fullstack Developer building solutions for real-life problems. I am passionate about learning and going into the depths of technologies I am using. I strongly believe in the theory of Compounding, works everywhere ( If you want to master anything just practice and learn everyday ). 
 
