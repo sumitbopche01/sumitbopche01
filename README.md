@@ -1,9 +1,8 @@
-<a href="https://www.sumitbopche.com/"><img src="./banner.svg" width="100%" alt="Sumit Bopche, Senior Software and AI Engineer. Backends, GenAI, agents, retrieval, evals, and inference. Open to senior software, GenAI, and senior AI roles." /></a>
+<a href="https://www.sumitbopche.com/"><img src="./banner.svg?v=3" width="100%" alt="Sumit Bopche, Senior Software and AI Engineer. Backends, GenAI, agents, retrieval, and evals. Open to senior software, GenAI, and senior AI roles." /></a>
 
 <div align="center">
 
 <a href="https://www.sumitbopche.com/"><img alt="Website" src="https://img.shields.io/badge/sumitbopche.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=10B981" /></a>
-<a href="https://www.sumitbopche.com/resume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Resume-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=10B981" /></a>
 <a href="https://www.linkedin.com/in/sumitbopche/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=10B981" /></a>
 <a href="mailto:sumitbopche01@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=10B981" /></a>
 <a href="https://sumitbopche01.medium.com/"><img alt="Medium" src="https://img.shields.io/badge/Medium-0D1117?style=for-the-badge&logo=medium&logoColor=10B981" /></a>
@@ -31,8 +30,18 @@ Most of the agent orchestration is hand-built. The hard part is the budget on th
   - [The CEO](https://the-ceo.harinext.com/) — a streaming assistant that runs the app through multi-step tool calls: tasks, inbox, navigation.
   - [Market Pulse](https://newsletter.harinext.com/) — 100 email editions and 58 reels published unattended, for 1,000+ investors and traders. Ingestion across hundreds of sources.
   - Options research — NSE strategies on live capital. About 50 evaluators across 21 families. Risk plane with loss limits, cooldowns, a kill switch, and idempotent routing. A strategy is promoted only after backtest, paper, and shadow eval.
-- **Freightify (2019–22), Senior Software Engineer.** Owned the Go services that replaced a PHP monolith. API response time down 40%. CQRS cut freight-rate processing time 30%. Node services under TDD, production defects down 25%. Invoicing automation from a day to seconds. 100K+ requests a day.
-- **Jio (2017–19).** Migrated the Jio Music backend to Node.js on a platform with 100M+ users. Google Home across 10M+ devices. Real-time systems on Socket.io and Elasticsearch. An internal CI/CD platform adopted across engineering teams.
+- **Freightify (2019–22), Senior Software Engineer.** Go and Node microservices on AWS, 100K+ requests a day.
+  - Owned the services that replaced a PHP monolith, design through production. API response time down 40%.
+  - CQRS pipelines for freight-rate processing. Processing time down 30%.
+  - Node and TypeScript services under TDD. Production defects down 25%.
+  - Invoicing automation from a day to seconds. React and Redux for customer logistics configuration.
+  - Mentored juniors, and ran a weekly engineering session plus an internal documentation hackathon.
+- **Jio (2017–19), Associate Developer.**
+  - Migrated the Jio Music backend to Node.js on a platform serving 100M+ users.
+  - Google Home integration across 10M+ devices.
+  - Real-time backend for Jio Tayari on Socket.io and Elasticsearch. MySQL at scale, with load tests before each release.
+  - Services deployed on bare metal behind load balancers.
+  - Built an internal CI/CD platform that engineering teams across the company adopted.
 
 ---
 
@@ -97,10 +106,6 @@ The retrieval work, in public. The model lists files, greps, reads the lines it 
 - [*Basics of the Aggregation Pipeline in MongoDB*](https://sumitbopche01.medium.com/basics-of-aggregation-pipeline-in-mongodb-17c3279f1764)
 - [*Understanding QR Codes*](https://sumitbopche01.medium.com/understanding-qr-codes-a-detailed-exploration-ca62fa767a65)
 
-**Latest posts**
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
 ---
 
 ### How I build
@@ -139,6 +144,6 @@ The retrieval work, in public. The model lists files, greps, reads the lines it 
 
 <div align="center">
 
-**Open to senior software, GenAI, and senior AI roles.** [Résumé](https://www.sumitbopche.com/resume.pdf) · [Email](mailto:sumitbopche01@gmail.com)
+**Open to senior software, GenAI, and senior AI roles.** [Email](mailto:sumitbopche01@gmail.com)
 
 </div>
