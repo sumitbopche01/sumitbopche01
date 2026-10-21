@@ -1,170 +1,85 @@
-# 👋 Hi, I'm Sumit Bopche
+<a href="https://sumitbopche.com"><img src="./banner.svg" width="100%" alt="Sumit Bopche, Senior AI / LLM Engineer and Founder of HariNext. Agents, retrieval, evals and inference on 8+ years of production backends." /></a>
 
-**`Programmer • Builder • Thinker`**
+<div align="center">
 
-I'm an experienced **Software Engineer** with **6+ years of expertise** in
-building scalable, high-performance applications, optimizing APIs, and
-integrating machine learning models. I specialize in backend technologies, cloud
-platforms, and AI/ML systems, with a proven track record of leading
-cross-functional teams and delivering data-driven solutions.
+<a href="https://sumitbopche.com"><img alt="Website" src="https://img.shields.io/badge/sumitbopche.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=10B981" /></a>
+<a href="https://linkedin.com/in/sumitbopche"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=10B981" /></a>
+<a href="https://sumitbopche01.medium.com/"><img alt="Medium" src="https://img.shields.io/badge/Medium-0D1117?style=for-the-badge&logo=medium&logoColor=10B981" /></a>
+<a href="https://twitter.com/sumitbopche01"><img alt="X" src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=10B981" /></a>
+<a href="mailto:sumitbopche01@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=10B981" /></a>
 
-I believe in the power of **compounding** — consistent learning and practice
-leads to mastery. I enjoy solving real-world problems, experimenting with
-cutting-edge technologies, and building tools that make a meaningful impact.
+<sub><b>Jio</b> 2017 → <b>Freightify</b> 2019 → <b>Humber College, Toronto</b> 2022 → <b>Decentral</b> 2023 → <b>HariNext</b> 2026</sub>
+
+</div>
 
 ---
 
-## 🌐 Connect with me
+### About
+
+I build **AI agent systems that hold up in production**, on top of 8+ years of backend engineering. Most of my orchestration is hand-built rather than framework glue, because the hard part of agents isn't the prompt. It's the bounds, the evals, and what happens when step 4 fails.
+
+- **Now:** founder & sole engineer at [HariNext Solutions](https://harinext.com), running three live products. Current focus is FitFighter.
+- **Decentral (2023–26):** multi-agent orchestration, MCP tooling, hybrid retrieval, evals, and 8×H100 GPU inference.
+- **Before that:** Go + AWS backends at Freightify (100K+ req/day) and a music backend at Jio for 100M+ users.
+
+---
+
+### Open source
+
+**🔎 [beyond-vector-search](https://github.com/sumitbopche01/beyond-vector-search)** &nbsp;·&nbsp; Python\
+Agentic document search as an alternative to classic RAG: the model navigates and reads documents the way recent frontier models do, instead of relying only on embedding similarity. Companion write-up: [*Beyond Vector Search*](https://sumitbopche01.medium.com/).
+
+**Latest writing**
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+### Building now
+
+**📈 [Market Pulse](https://newsletter.harinext.com)** &nbsp; ![Live](https://img.shields.io/badge/live-10B981?style=flat-square)\
+A daily Indian markets newsletter and [Instagram reels](https://instagram.com/marketpulse.live), built as a gated pipeline rather than one mega-agent: fetch → verify → narrate → QC → render → publish. 100+ editions shipped. Provenance envelopes mean estimated data never renders as fact, and QC gates fail closed.\
+<sub>`TypeScript` `Bull/Redis` `Supabase` `OpenAI`</sub>
+
+**🗂️ The CEO** &nbsp; ![Live](https://img.shields.io/badge/live-10B981?style=flat-square)\
+An AI planning app where a streaming assistant operates the UI through tool calling.\
+<sub>`Next.js` `Supabase` `Tool calling` `SSE`</sub>
+
+**🥊 FitFighter** &nbsp; ![Beta](https://img.shields.io/badge/beta-F5A623?style=flat-square)\
+A camera-based fitness game: moves tracked with on-device pose detection fuel the gameplay. v1 is out with a small user group.\
+<sub>`Flutter` `Pose detection` `On-device ML`</sub>
+
+**📊 Options research platform** &nbsp; ![Private](https://img.shields.io/badge/private-6E7681?style=flat-square)\
+NSE options research with LightGBM walk-forward validation. Strategies are promoted on realized P&L, not AUC, behind a risk layer with a kill switch, loss limits, and idempotent paper/live routing.\
+<sub>`FastAPI` `LightGBM` `WebSockets`</sub>
+
+---
+
+### How I build
+
+| Principle | Where it shows up |
+|---|---|
+| **Bounded over open-ended.** Every agent loop gets a budget and a stop condition. | Plan-execute-review loops at Decentral with hard caps on cycles, wall-clock time, and spend |
+| **Pipelines over mega-agents.** Small contracted stages are debuggable. | Market Pulse's fetch → verify → narrate → gate → publish stages |
+| **Fail closed.** A skipped output beats a confidently wrong one. | Fail-closed QC gates on generated reel scripts; provenance so estimates never pass as facts |
+| **Measure before trusting.** | Golden sets, LLM-as-judge, and per-model cost/token telemetry |
+| **Retrieval is a system, not a vector DB.** | Hybrid pgvector + Postgres FTS with RRF, LLM-built Neo4j graphs, agentic search |
+
+---
+
+### Stack
 
 <p align="center">
-  <a href="https://twitter.com/sumitbopche01"><img width="32px" alt="Twitter" title="Twitter" src="https://i.imgur.com/OXZM1L6.png"/></a>
-  &#8287;&#8287;&#8287;
-  <a href="https://sumitbopche01.medium.com/"><img width="32px" alt="Medium" title="Medium" src="https://cdn-icons-png.flaticon.com/512/5968/5968933.png"/></a>
-  &#8287;&#8287;&#8287;
-  <a href="https://linkedin.com/in/sumitbopche"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"/></a>
-  &#8287;&#8287;&#8287;
-  <a href="mailto:sumitbopche01@gmail.com"><img width="32px" alt="Email" title="Email" src="https://cdn-icons-png.flaticon.com/512/732/732200.png"/></a>
+  <img alt="Python, TypeScript, Go, FastAPI, Node.js, NestJS, Next.js, React, Flutter" src="https://skillicons.dev/icons?i=py,ts,go,fastapi,nodejs,nestjs,nextjs,react,flutter&theme=dark" /><br/><br/>
+  <img alt="PostgreSQL, Redis, MongoDB, Elasticsearch, PyTorch, AWS, GCP, Docker, Kubernetes, GitHub Actions, Supabase, NGINX" src="https://skillicons.dev/icons?i=postgres,redis,mongodb,elasticsearch,pytorch,aws,gcp,docker,kubernetes,githubactions,supabase,nginx&theme=dark" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/sumitbopche01?tab=repositories&sort=stargazers">
-    <img alt="GitHub stars" src="https://custom-icon-badges.demolab.com/github/stars/sumitbopche01?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/>
-  </a>
-  <a href="https://github.com/sumitbopche01?tab=followers">
-    <img alt="GitHub followers" src="https://custom-icon-badges.demolab.com/github/followers/sumitbopche01?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
-  </a>
-</p>
+<p align="center"><sub><b>AI layer:</b> MCP · vLLM · Hugging Face TGI · pgvector · Neo4j · trigger.dev · LightGBM</sub></p>
 
 ---
 
-## ⚙️ Tech Stack & Tools
+<div align="center">
 
-### 🧠 Languages & Programming
+**Building agents, AI infra, or something hard on the backend? [Let's talk.](mailto:sumitbopche01@gmail.com)**
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Deno](https://img.shields.io/badge/Deno-000000?style=flat&logo=deno&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=flat&logo=postgresql&logoColor=white)
-
-### 🧰 Frameworks & Libraries
-
-![React](https://img.shields.io/badge/React-20232a?style=flat&logo=react&logoColor=61DAFB)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-404d59?style=flat&logo=express&logoColor=white)
-![Gin](https://img.shields.io/badge/Gin-00ADD8?style=flat&logo=go&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
-
-### 🤖 AI/ML & Agent Systems
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=chainlink&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=flat&logoColor=black)
-![RAG](https://img.shields.io/badge/RAG-FF6B6B?style=flat&logoColor=white)
-![Vector Embeddings](https://img.shields.io/badge/Vector%20Embeddings-4ECDC4?style=flat&logoColor=white)
-
-### 🗄️ Databases & Storage
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
-
-### ☁️ Cloud & DevOps
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
-
-### 🧪 Tools & Platforms
-
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=flat&logo=git&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
-
----
-
-## 🚀 Featured Projects
-
-### 🏋️ **CardioBox** - Gamified Fitness App
-
-- Motion detection using MediaPipe & Unity for workout tracking
-- Daily training regimens with fitness level analytics
-- **Demo:** [sumitbopche.com](https://sumitbopche.com)
-
-### 🔐 **Private Cloud Solution**
-
-- Raspberry Pi-based cloud with Go backend
-- Mobile access and secure file management
-- Custom authentication and storage optimization
-
-### 🤖 **Agentic News System**
-
-- AI agents for real-time stock market news processing
-- LangChain & RAG implementation for intelligent data retrieval
-- Automated content analysis and categorization
-
-### 🌱 **Automated Irrigation System**
-
-- Arduino-based time-controlled field irrigation
-- IoT sensors for soil moisture monitoring
-- **Demo:** [sumitbopche.com](https://sumitbopche.com)
-
-### 💉 **CoWIN Vaccine Alert System**
-
-- Real-time vaccine slot availability notifications
-- API integration with government health portal
-- SMS and email alert automation
-
----
-
-## 🎓 Education
-
-**🏫 Humber College, Toronto, Canada**\
-_Postgraduate Degree - Enterprise Software Development_ | 2022 – 2023
-
-**🏫 University of Mumbai, India**\
-_Bachelor's Degree - Information Technology_ | 2013 – 2017
-
----
-
-## 🏆 Honors & Awards
-
-- 🥇 **Best Capstone Project Award** - Humber College (Apr 2023)
-- 🥈 **1st Runner-up** - Hackathon, Humber Tech Society (Mar 2023)
-- 🥉 **2nd Rank** - Techknow CSI RAIT (Oct 2016)
-- 🌟 **AIR 401** - TCS Codevita, Tata Consultancy Services (Apr 2017)
-- 🏅 **Best Solution Award** - Hackathon, CSI RAIT (Mar 2017)
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sumitbopche01&layout=compact&theme=radical" alt="Top Languages" />
-</p>
-
----
-
-## 📫 Let's Connect
-
-If you're building something meaningful — in **tech**, **AI/ML**, **fintech**,
-or **health** — I'm open to collaboration, consultation, or just a good
-conversation about innovative solutions.
-
-**📧 Email:** sumitbopche01@gmail.com
-
----
-
-<p align="center">
-  <i>💡 "The best way to predict the future is to invent it." - Alan Kay</i>
-</p>
+</div>
