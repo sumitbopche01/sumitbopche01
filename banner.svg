@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Sumit Bopche, Senior AI Engineer. Agents, retrieval, evals, and inference on 8+ years of production backends. Available for senior AI and backend roles.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Sumit Bopche, Senior Software and AI Engineer. Backends, GenAI, agents, retrieval, evals, and inference. Open to senior software, GenAI, and senior AI roles.">
   <defs>
     <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#10B981"/>
@@ -30,14 +30,14 @@
   <rect x="64" y="76" width="52" height="3" rx="1.5" fill="url(#brand)"/>
 
   <text x="64" y="148" class="sans" font-size="58" font-weight="700" fill="#F0F6FC">Sumit Bopche</text>
-  <text x="64" y="190" class="sans" font-size="26" font-weight="600" fill="url(#brand)">Senior AI Engineer</text>
-  <text x="64" y="226" class="sans" font-size="20" fill="#C9D1D9">Agents · Retrieval · Evals · Inference</text>
+  <text x="64" y="190" class="sans" font-size="26" font-weight="600" fill="url(#brand)">Senior Software &amp; AI Engineer</text>
+  <text x="64" y="226" class="sans" font-size="20" fill="#C9D1D9">Backends · GenAI · Agents · Retrieval · Evals</text>
   <text x="64" y="258" class="sans" font-size="16" fill="#8B949E">Jio · Freightify · Decentral · 8+ years in production</text>
 
   <g transform="translate(64,286)">
-    <rect width="372" height="30" rx="15" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.5"/>
+    <rect width="408" height="30" rx="15" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.5"/>
     <circle cx="16" cy="15" r="4" fill="#10B981"/>
-    <text x="30" y="20" class="sans" font-size="13" font-weight="600" fill="#A3E635">Available for senior AI &amp; backend roles</text>
+    <text x="30" y="20" class="sans" font-size="13" font-weight="600" fill="#A3E635">Open to senior software, GenAI &amp; AI roles</text>
   </g>
 
   <!-- bounded agent loop -->
