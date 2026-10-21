@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Sumit Bopche, Senior AI Engineer. Agents, retrieval, evals, and inference on 8+ years of production backends. Available for senior AI and backend roles.">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#A3E635"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.42" r="0.42">
+      <stop offset="0" stop-color="#10B981" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#1F2933" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .flow{stroke-dasharray:5 8;animation:dash 2.2s linear infinite}
+    .d1{animation-delay:-.55s}.d2{animation-delay:-1.1s}.d3{animation-delay:-1.65s}
+    @keyframes dash{to{stroke-dashoffset:-26}}
+    @media (prefers-reduced-motion:reduce){.flow{animation:none}}
+  </style>
+
+  <rect width="1280" height="360" rx="18" fill="#0D1117"/>
+  <rect width="1280" height="360" rx="18" fill="url(#grid)" opacity="0.45"/>
+  <rect width="1280" height="360" rx="18" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="17.5" fill="none" stroke="#30363D"/>
+
+  <text x="64" y="58" class="mono" font-size="14" fill="#7D8590">~/sumitbopche01</text>
+  <rect x="64" y="76" width="52" height="3" rx="1.5" fill="url(#brand)"/>
+
+  <text x="64" y="148" class="sans" font-size="58" font-weight="700" fill="#F0F6FC">Sumit Bopche</text>
+  <text x="64" y="190" class="sans" font-size="26" font-weight="600" fill="url(#brand)">Senior AI Engineer</text>
+  <text x="64" y="226" class="sans" font-size="20" fill="#C9D1D9">Agents · Retrieval · Evals · Inference</text>
+  <text x="64" y="258" class="sans" font-size="16" fill="#8B949E">Jio · Freightify · Decentral · 8+ years in production</text>
+
+  <g transform="translate(64,286)">
+    <rect width="372" height="30" rx="15" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.5"/>
+    <circle cx="16" cy="15" r="4" fill="#10B981"/>
+    <text x="30" y="20" class="sans" font-size="13" font-weight="600" fill="#A3E635">Available for senior AI &amp; backend roles</text>
+  </g>
+
+  <!-- bounded agent loop -->
+  <g fill="none" stroke="#10B981" stroke-width="1.75" stroke-linecap="round">
+    <line x1="1064" y1="168" x2="948" y2="84" class="flow"/>
+    <line x1="1064" y1="168" x2="1180" y2="84" class="flow d1"/>
+    <line x1="1064" y1="168" x2="1180" y2="252" class="flow d2"/>
+    <line x1="1064" y1="168" x2="948" y2="252" class="flow d3"/>
+  </g>
+  <path d="M910 228 C 868 188, 868 148, 910 108" fill="none" stroke="#A3E635" stroke-width="1.75" stroke-dasharray="4 6" opacity="0.8"/>
+
+  <g class="sans" font-size="15" font-weight="600" text-anchor="middle">
+    <circle cx="1064" cy="168" r="36" fill="#0D1117" stroke="url(#brand)" stroke-width="2.5"/>
+    <text x="1064" y="173" fill="#F0F6FC">orch</text>
+
+    <rect x="900" y="58" width="96" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="948" y="81" fill="#C9D1D9">plan</text>
+
+    <rect x="1116" y="58" width="128" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="1180" y="81" fill="#C9D1D9">retrieve</text>
+
+    <rect x="1136" y="234" width="88" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="1180" y="257" fill="#C9D1D9">act</text>
+
+    <rect x="904" y="234" width="88" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="948" y="257" fill="#C9D1D9">eval</text>
+  </g>
+  <text x="1064" y="312" class="mono" font-size="12" fill="#8B949E" text-anchor="middle">bounded loop</text>
+</svg>

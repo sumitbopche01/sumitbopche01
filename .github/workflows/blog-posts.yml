@@ -1,0 +1,20 @@
+name: Latest Medium posts
+
+on:
+  schedule:
+    - cron: "30 2 * * *" # 08:00 IST daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://sumitbopche01.medium.com/feed"
+          max_post_count: 4
+          commit_message: "chore: update latest posts"
